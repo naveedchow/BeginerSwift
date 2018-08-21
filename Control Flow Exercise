@@ -48,5 +48,16 @@ for number in 1...n {
 print(arraySquare)
 
 /*
-
+Print the powers of 2 that are less than or equal to n.
+n can be declared as a constant (let n = 90 for example)
 */
+
+var arraySpecial :[Int] = []
+let n = 90
+var number = 2
+
+while number < n {
+    number *= 2
+    arraySpecial.append(number)
+}
+print(arraySpecial)
