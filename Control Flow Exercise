@@ -1,0 +1,34 @@
+
+// Control Flow Exercise
+
+/*
+1. Print all negative even numbers which are greater than n
+n can be declared as a constant (let n = -999 for example)
+
+*/
+
+var numberArray :[Int] = []
+let n = -999
+var number = 0
+for number in n...0 {
+    if  number % 2 == 0  {
+    numberArray.append(number)
+ }
+}
+print(numberArray)
+
+
+/*
+Print all positive numbers which divisible by 3
+n can be declared as a constant (let n = 1999 for example)
+*/
+
+var numberPositive : [Int] = []
+let n = 1999
+var number = 0
+for number in 0...n {
+    if number % 3 == 0   {
+        numberPositive.append(number)
+    }
+}
+print(numberPositive)
