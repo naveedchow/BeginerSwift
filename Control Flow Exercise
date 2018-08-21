@@ -32,3 +32,21 @@ for number in 0...n {
     }
 }
 print(numberPositive)
+
+/*
+Print the first n square numbers. A square number, also called perfect square, is an integer that is obtained by squaring some other integer; in other words, it is the product of some integer with itself (ex. 1, 4 = 2 * 2, 9 = 3* 3 …).
+n can be declared as a constant (let n = 10 for example)
+*/
+
+var arraySquare : [Int] = []
+let n = 10
+var number = 1
+for number in 1...n {
+    let squaredNumber = (number * number)
+    arraySquare.append(squaredNumber)
+}
+print(arraySquare)
+
+/*
+
+*/
